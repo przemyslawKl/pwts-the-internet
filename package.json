@@ -8,7 +8,22 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@eslint/js": "^9.20.0",
     "@playwright/test": "^1.50.1",
-    "@types/node": "^22.13.1"
+    "@types/node": "^22.13.1",
+    "eslint": "^9.20.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-playwright": "^2.2.0",
+    "globals": "^15.15.0",
+    "prettier": "^3.5.1",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.24.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 2,
+    "semi": true,
+    "endOfLine": "auto",
+    "printWidth": 120
   }
 }
