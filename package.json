@@ -2,7 +2,10 @@
   "name": "pwts-the-internet",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "pretest": "tsc --noEmit && eslint ./",
+    "test": "npx playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
