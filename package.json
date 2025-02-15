@@ -24,6 +24,6 @@
     "tabWidth": 2,
     "semi": true,
     "endOfLine": "auto",
-    "printWidth": 120
+    "printWidth": 125
   }
 }
