@@ -22,10 +22,3 @@ test.describe('Playwright Page Basic Check', () => {
     await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
   });
 });
-  // Click the get started link.
-  await expect(page.getByRole('link', { name: 'Get started' })).toBeVisible();
-  await page.getByRole('link', { name: 'Get started' }).click();
-
-  // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
-});
